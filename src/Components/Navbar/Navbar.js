@@ -12,8 +12,8 @@ const Navbar = () => {
                     <div className=' font-bold text-2xl cursor-pointer font-[Poppins] 
 text-white'>
                         <span className=''>
-                            <img className='' src="https://corporx.themetags.com/assets/img/logo-white.png" alt="" />
-
+                            {/* <img className='' src="https://corporx.themetags.com/assets/img/logo-white.png" alt="" /> */}
+                            <h1 className='text-2xl font-bold font-Poppins text-white'>C.B.C.L</h1>
                         </span>
 
 

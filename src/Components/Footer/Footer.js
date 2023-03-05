@@ -7,10 +7,10 @@ const Footer = () => {
 
     return (
         <div className='bg-white'>
-            <div className='max-w-7xl mx-auto pt-24'>
-                <div className='flex justify-evenly'>
+            <div className='max-w-7xl mx-auto p-12'>
+                <div className='flex justify-evenly p-4 lg:p-0'>
                     <div>
-                        <h1 className='lg:text-3xl text-xl font-Poppins font-serif text-[#8d7c7c]'>Consulting Agency for Your Business</h1>
+                        <h1 className='lg:text-3xl text-xl font-Poppins  text-[#8d7c7c]'>Consulting Agency for Your Business</h1>
                         <p className='text-[#707070] pt-2'>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
                     </div>
                     <div>
@@ -24,8 +24,8 @@ const Footer = () => {
             <div className='bg-[#1a2c79] p-6'>
                 <div className='pt-16 lg:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-24'>
                     <div>
-                        <img src="https://corporx.themetags.com/assets/img/logo-white.png" alt="" />
-                        <p className='text-gray-300 pt-4'>Interactively unleash interactive best practices before technically sound portals.</p>
+                        {/* <img src="https://corporx.themetags.com/assets/img/logo-white.png" alt="" /> */}
+                        <h1 className='text-2xl font-bold font-Poppins text-white'>C.B.C.L</h1>                        <p className='text-gray-300 pt-4'>Interactively unleash interactive best practices before technically sound portals.</p>
 
 
                         <div className='flex gap-5 pt-4 pb-2 cursor-pointer'>
@@ -74,7 +74,7 @@ const Footer = () => {
                 </div>
 
                 <div className=' '>
-                    <h1 className=' border-t-2 text-center p-8 border-white font-Poppins text-gray-300'>Copyrights © 2021. All rights reserved by ThemeTags</h1>
+                    <h1 className=' border-t-2 text-center p-8 border-white font-Poppins text-gray-300'>Copyrights © 2021. All rights reserved by C.B.C.L</h1>
                 </div>
 
             </div>

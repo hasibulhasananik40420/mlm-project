@@ -4,18 +4,18 @@ import { FaRoute } from 'react-icons/fa';
 
 const Hero = () => {
     return (
-        <div className='pt-24 bg-white   mb-24 container mx-auto  p-6'>
-            <h1 className='lg:text-4xl text-2xl font-bold font-Poppins'>Control Everything &</h1>
-            <h1 className='lg:text-4xl text-2xl font-bold font-Poppins mt-1'>all Solution Made for you</h1>
+        <div className='pt-24 bg-white   mb-24 container mx-auto  p-6 '>
+            <h1 className='lg:text-4xl text-2xl font-bold font-Poppins pl-8'>Control Everything &</h1>
+            <h1 className='lg:text-4xl text-2xl font-bold font-Poppins mt-1 pl-8'>all Solution Made for you</h1>
 
 
 
             <div className='lg:flex'>
 
-                <div className='lg:w-3/5 w-full'>
-                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 mt-16'>
+                <div className='lg:w-3/5 w-full p-5'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-10  mt-16 '>
                         <div className=''>
-                            <span className='bg-[#0648b3] h-20 w-20 rounded-full flex items-center justify-center text-white'>
+                            <span className='bg-[#0648b3] h-20 w-20 rounded-full flex justify-center items-center  text-white'>
                                 <BsLink45Deg size={50} />
                             </span>
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillBug } from 'react-icons/ai';
-import { BsLink45Deg } from 'react-icons/bs';
 import { FaConfluence } from 'react-icons/fa';
 import { BsFillCloudMoonFill } from 'react-icons/bs';
 import { TfiControlForward } from 'react-icons/tfi';
@@ -13,15 +12,15 @@ const Header = () => {
                     className="header-banner lg:h-[120vh] h-full"
                 //bg-gradient-to-r from-[#1A2C79] to-[#e80566]
                 >
-                    <div className=' p-8'>
+                    <div className=' p-10'>
                         {/* text part */}
-                        <div className=" p-8  lg:w-2/4 w-full mt-24">
+                        <div className=" lg:p-8  lg:w-2/4 w-full mt-24">
                             <h3 className='lg:text-5xl text-2xl font-Poppins mb-4  font-bold '>Build,First Launch </h3>
                             <h3 className='lg:text-5xl text-2xl font-Poppins mb-4  font-bold '>Quickly </h3>
                             <h3 className='text-xl pt-3 font-Poppins mb-8'>Holisticly procrastinate mission-critical convergence with reliable customer service.
                             </h3>
 
-                            <div className='flex items-center text-xl gap-2 mb-2'>
+                            <div className='flex items-center text-xl gap-2 mb-2 font-Poppins'>
                                 <span><TfiControlForward size={15} /></span>
                                 <span>Flexible, Easy to use</span>
                             </div>

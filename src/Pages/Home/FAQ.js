@@ -10,7 +10,7 @@ const FAQ = () => {
     }, [])
     return (
         <div className='bg-gray-50 '>
-            <div className='pt-12 mb-24 container mx-auto  p-4'>
+            <div className='pt-12 mb-24 p-12 mx-auto max-w-7xl'>
                 <div className='grid lg:grid-cols-2 py-10'>
                     <div className='pl-2 grid items-center'>
                         <div>

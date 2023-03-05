@@ -20,7 +20,7 @@ const Home = () => {
             <LatestNews />
             <OurTeam />
             <ClientsSay />
-            <Gift />
+            {/* <Gift /> */}
         </div>
     );
 };

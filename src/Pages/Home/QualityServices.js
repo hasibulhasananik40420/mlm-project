@@ -5,9 +5,9 @@ import { FiBell } from 'react-icons/fi'
 const QualityServices = () => {
     return (
         <div className='bg-[#f5f5f5] mt-24 '>
-            <h1 className='text-5xl font-bold font-sans text-center pt-20 text-[#000000]'>We Provide Quality Services.</h1>
-            <p className='pt-6 text-center text-xl text-[#707070]'>Efficiently aggregate end-to-end core competencies without maintainable. </p>
-            <p className='text-xl text-center pt-1 text-[#707070]'>Dynamically foster tactical solutions without enabled value.</p>
+            <h1 className='lg:text-5xl text-3xl font-bold font-Poppins text-center pt-20 text-[#000000]'>We Provide Quality Services.</h1>
+            <p className='pt-6 text-center lg:text-xl text-[#707070]'>Efficiently aggregate end-to-end core competencies without maintainable. </p>
+            <p className='lg:text-xl text-center pt-1 text-[#707070]'>Dynamically foster tactical solutions without enabled value.</p>
 
 
 
