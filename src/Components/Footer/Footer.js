@@ -14,14 +14,14 @@ const Footer = () => {
                         <p className='text-[#707070] pt-2'>Rapidiously engage fully tested e-commerce with progressive architectures.</p>
                     </div>
                     <div>
-                        <button className='bg-[#1a2c79] my-6 py-3 px-4 rounded hover:bg-[#21358d] text-white  font-medium font-poppins  duration-500'>Contact With Us </button>
+                        <button className='bg-[#1a2c79] my-6 py-3 px-4 rounded hover:bg-[#21358d] text-white  font-medium font-poppins  duration-500 lg:block hidden'>Contact With Us </button>
                     </div>
                 </div>
 
             </div>
 
 
-            <div className='bg-[#1a2c79]'>
+            <div className='bg-[#1a2c79] p-6'>
                 <div className='pt-16 lg:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-24'>
                     <div>
                         <img src="https://corporx.themetags.com/assets/img/logo-white.png" alt="" />

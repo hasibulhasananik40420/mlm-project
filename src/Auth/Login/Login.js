@@ -7,7 +7,7 @@ const Login = () => {
 
         <div>
 
-            <div className="min-h-screen flex flex-col items-center justify-center pt-20">
+            <div className=" flex flex-col items-center justify-center pt-24">
                 <div className="flex flex-col bg-white shadow-2xl px-4 sm:px-6 md:px-8 lg:px-10 py-8 rounded-md w-full max-w-md">
                     <div className="font-medium self-center text-xl sm:text-2xl uppercase text-gray-800">Login To Your Account</div>
                     <button className="relative mt-6 border rounded-md py-2 text-sm text-gray-800 bg-gray-100 hover:bg-gray-200">

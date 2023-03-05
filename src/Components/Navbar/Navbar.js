@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className='shadow-sm w-full fixed top-0 left-0 z-50 border-b'>
+            <div className='shadow-sm w-full fixed top-0 left-0 z-50 '>
                 <div className='md:flex items-center justify-between bg-[#1a2c79] py-4 md:px-20 px-7  '>
                     <div className=' font-bold text-2xl cursor-pointer font-[Poppins] 
 text-white'>
@@ -26,11 +26,13 @@ text-white'>
                         </BiMenuAltLeft>
 
 
+
+
                     </div>
 
 
 
-                    <ul onClick={() => setOpen(!open)} className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:bg-[#1a2c79] bg-[#1a2c79] text-white  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-4 pr-6 transition-all duration-500 ease-in ${open ? 'top-16 ' : 'top-[-490px]'}`}>
+                    <ul onClick={() => setOpen(!open)} className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static  md:bg-[#1a2c79] bg-[#1a2c79] text-white  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-4 pr-6 transition-all duration-500 ease-in ${open ? 'top-14 ' : 'top-[-490px]'}`}>
 
 
                         <li>

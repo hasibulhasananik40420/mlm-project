@@ -10,16 +10,15 @@ const Header = () => {
         <div className="">
             <div className=''>
                 <section
-                    className="header-banner h-[120vh] "
+                    className="header-banner lg:h-[120vh] h-full"
                 //bg-gradient-to-r from-[#1A2C79] to-[#e80566]
                 >
                     <div className=' p-8'>
                         {/* text part */}
                         <div className=" p-8  lg:w-2/4 w-full mt-24">
-                            {/* <h3 className='text-lg mb-4 font-Poppins'>BUSINESS SOLUTIONS</h3> */}
                             <h3 className='lg:text-5xl text-2xl font-Poppins mb-4  font-bold '>Build,First Launch </h3>
                             <h3 className='lg:text-5xl text-2xl font-Poppins mb-4  font-bold '>Quickly </h3>
-                            <h3 className='text-lg pt-3 font-Poppins mb-8'>Holisticly procrastinate mission-critical convergence with reliable customer service.
+                            <h3 className='text-xl pt-3 font-Poppins mb-8'>Holisticly procrastinate mission-critical convergence with reliable customer service.
                             </h3>
 
                             <div className='flex items-center text-xl gap-2 mb-2'>

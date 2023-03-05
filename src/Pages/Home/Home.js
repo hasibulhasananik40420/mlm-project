@@ -2,6 +2,7 @@ import React from 'react';
 import BusinessApps from './BusinessApps';
 import ClientsSay from './ClientsSay';
 import FAQ from './FAQ';
+import Gift from './Gift';
 import Header from './Header';
 import Hero from './Hero';
 import LatestNews from './LatestNews';
@@ -19,6 +20,7 @@ const Home = () => {
             <LatestNews />
             <OurTeam />
             <ClientsSay />
+            <Gift />
         </div>
     );
 };
