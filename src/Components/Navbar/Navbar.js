@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { BiMenuAltLeft, BiUserPlus } from 'react-icons/bi';
+import { AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
     let [open, setOpen] = useState(false);
@@ -21,9 +22,9 @@ text-white'>
                     </div>
 
                     <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
-                        <BiMenuAltLeft className='border border-[#e80566] shadow rounded w-10 hover:border-[#6d28d9] duration-300 text-white' name={open ? 'close' : 'menu'}>
+                        {!open ? <BiMenuAltLeft className='border border-[#e80566] shadow rounded w-10 hover:border-[#6d28d9] duration-300 text-white' name={open ? 'close' : 'menu'}>
 
-                        </BiMenuAltLeft>
+                        </BiMenuAltLeft> : <AiOutlineClose className='border border-[#e80566] shadow rounded w-10 hover:border-[#6d28d9] duration-300 text-white' />}
 
 
 
