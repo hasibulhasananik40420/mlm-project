@@ -13,12 +13,51 @@
   }
 }
 
-
+/* 
 .register-banner {
   background-image: url('https://corporx.themetags.com/assets/img/slider-bg-1.svg');
   background-repeat: no-repeat;
-  /* height: 100vh; */
+  height: 100vh;
   object-fit: cover;
+
+
+} */
+
+
+.hero-img {
+  border-radius: 63% 37% 30% 70% / 50% 45% 55% 50%;
+  background-color: #1a2c79;
+  /* opacity: 50%; */
+
+}
+
+
+.header-card:hover {
+  color: white;
+
+}
+
+
+.three-btn {
+  color: white;
+}
+
+.three-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+.header-banner {
+  /* background-image: url('https://corporx.themetags.com/assets/img/hero-bg5.jpg'); */
+  background: linear-gradient(rgba(117, 141, 250, 0.5), rgba(248, 250, 241, 0.5)), url("https://corporx.themetags.com/assets/img/hero-bg5.jpg");
+
+  /* background: linear-gradient(rgba(#3d5ef0), rgba(#f8589d)), url("https://corporx.themetags.com/assets/img/hero-bg5.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
 
 
 }

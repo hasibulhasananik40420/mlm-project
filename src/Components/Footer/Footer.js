@@ -1,12 +1,13 @@
 import React from 'react';
 import { AiOutlineDribbble, AiOutlineTwitter, AiOutlineYoutube } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
-import { FiInstagram, FiLinkedin } from 'react-icons/fi';
 
 const Footer = () => {
+
+
     return (
-        <div>
-            <div className='bg-white pt-24'>
+        <div className='bg-white'>
+            <div className='max-w-7xl mx-auto pt-24'>
                 <div className='flex justify-evenly'>
                     <div>
                         <h1 className='lg:text-3xl text-xl font-Poppins font-serif text-[#8d7c7c]'>Consulting Agency for Your Business</h1>

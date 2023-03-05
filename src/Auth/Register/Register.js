@@ -1,92 +1,290 @@
 import React from 'react';
 import { AiOutlineMail, AiOutlineUnlock, AiOutlineUser } from 'react-icons/ai';
+import { Link, useLocation } from 'react-router-dom';
 
 const Register = () => {
+
+    // const location = useLocation();
+
+    // const renderFooter = location.pathname !== '/register';
+
     return (
-        <div className='register-banner'>
-            <div className='pt-24 px-14'>
-                <div className='flex justify-between pt-20 '>
-                    <div className='w-2/4'>
-                        <h1 className='lg:text-5xl text-2xl font-bold font-Poppins text-white'>Create Your</h1>
-                        <h1 className='lg:text-5xl text-2xl font-bold font-Poppins text-white mt-3'>Account</h1>
-                        <p className='text-xl font-medium font-Poppins text-white mt-6'>Keep your face always toward the sunshine - and</p>
-                        <p className='text-xl font-medium font-Poppins text-white mt-1'>shadows will fall behind you.</p>
+        <>
 
-                    </div>
-
-                    <div className='bg-white lg:w-[450px] w-full rounded-md p-6'>
+            <div className="   ">
+                <div className='pt-24'>
+                    <div className=' '>
 
 
-                        <h1 className='lg:text-4xl text-2xl font-semibold font-Poppins pt-4'>Create Account</h1>
-                        <p className='font-Poppins pt-3 text-xl text-[#7e8299]'>Sign in to your account to continue.</p>
+                        <div className='bg-white lg:w-[450px] w-full mx-auto rounded-md p-6 border shadow-lg'>
+
+                            <form>
+
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Father Name</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
 
 
-                        <form>
+                                            <AiOutlineUser size={20} />
+                                        </div>
 
-                            <div class="flex flex-col mb-6 mt-6">
-                                <label for="email" class="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Your Name</label>
-                                <div class="relative">
-                                    <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
-
-
-                                        <AiOutlineUser size={20} />
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Father Name" />
                                     </div>
-
-                                    <input id="name" type="name" name="name" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Enter Your Name" />
                                 </div>
-                            </div>
+
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Mother Name</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
 
 
-                            <div class="flex flex-col mb-6 mt-6">
-                                <label for="email" class="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Email Address</label>
-                                <div class="relative">
-                                    <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+                                            <AiOutlineUser size={20} />
+                                        </div>
 
-
-                                        <AiOutlineMail size={20} />
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Mother Name" />
                                     </div>
-
-                                    <input id="name" type="name" name="name" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="name@gmail.com" />
                                 </div>
-                            </div>
-
-                            <div class="flex flex-col mb-6 mt-6">
-                                <label for="email" class="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Password</label>
-                                <div class="relative">
-                                    <div class="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Father's NID</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
 
 
-                                        <AiOutlineUnlock size={20} />
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Father's NID" />
                                     </div>
-
-                                    <input id="name" type="name" name="name" class="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Enter Your Password" />
                                 </div>
-                            </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Mother's NID</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
 
 
-                            <div class="mb-3 flex flex-wrap content-center">
-                                <input id="remember" type="checkbox" class="mr-1 checked:bg-purple-700" /> <label for="remember" class="mr-auto font-Poppins font-semibold cursor-pointer">I agree to the terms and conditions</label>
-                                <a href="#" class=" font-semibold text-purple-700">Forgot password?</a>
-                            </div>
+                                            <AiOutlineUser size={20} />
+                                        </div>
 
-                            <button className='w-full bg-[#e80566] text-white font-Poppins font-medium rounded-md h-12 mt-2 '>Singup</button>
-
-
-                        </form>
-
-
-
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Mother's NID" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Date Of birth</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
 
 
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Date Of birth" />
+                                    </div>
+                                </div>
+
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">NID/Passport</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="NID/Passport" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Nominee Name</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Nominee Name" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Relationship with Nominee</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Relationship with Nominee" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Date of birth (nominee)</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Date of birth (nominee)" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">NID/ Birth certificate (nominee)</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="NID/ Birth certificate (nominee)" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="Name" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Mobile Number</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Mobile Number" />
+                                    </div>
+                                </div>
+
+
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="email" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Email Address</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineMail size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="name@gmail.com" />
+                                    </div>
+                                </div>
+
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="email" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Bank account no.</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Bank account no." />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="email" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Mobile banking account no.</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Mobile banking account no." />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="email" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Address</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Address" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="email" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Referrer name</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Referrer name" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="email" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Referrer id</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Referrer id" />
+                                    </div>
+                                </div>
+
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="email" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Citizen certificate</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="name" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" placeholder="Citizen certificate" />
+                                    </div>
+                                </div>
+                                <div className="flex flex-col mb-6 mt-6">
+                                    <label for="email" className="mb-1 text-xl font-medium sm:text-sm tracking-wide text-gray-600">Image</label>
+                                    <div className="relative">
+                                        <div className="inline-flex items-center justify-center absolute left-0 top-0 h-full w-10 text-gray-400">
+
+
+                                            <AiOutlineUser size={20} />
+                                        </div>
+
+                                        <input id="name" type="file" name="name" className="text-sm sm:text-base placeholder-gray-500 pl-10 pr-4 rounded-lg border border-gray-400 w-full py-3 focus:outline-none focus:border-blue-400" />
+                                    </div>
+                                </div>
 
 
 
 
 
+                                <div className="mb-3 flex flex-wrap content-center">
+                                    <label for="remember" className="mr-auto font-Poppins font-semibold cursor-pointer">Already have an accout?</label>
+                                    <Link to='/login' className=" font-semibold text-purple-700">Login now</Link>
+                                </div>
+
+                                <button className='w-full bg-[#e80566] text-white font-Poppins font-medium rounded-md h-12 mt-2 '>Singup</button>
+
+
+                            </form>
+
+
+
+
+
+
+
+
+
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+
+        </>
     );
 };
 

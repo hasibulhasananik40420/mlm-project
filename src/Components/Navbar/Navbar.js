@@ -46,7 +46,7 @@ text-white'>
 
 
                         <li>
-                            <Link to='/' className='  md:ml-8 text-center text-xl md:my-0 my-7 md:pb-0 bg-[#e80566] md:bg-[#1a2c79]  mx-2 py-3 md:py-0 rounded-md duration-500 cursor-pointer block font-poppins text-white hover:bg-[#fa2d86] md:hover:py-1 md:hover:px-4 md:hover:text-white md:hover:rounded-md hover:duration-500'>Blogs
+                            <Link to='/login' className='  md:ml-8 text-center text-xl md:my-0 my-7 md:pb-0 bg-[#e80566] md:bg-[#1a2c79]  mx-2 py-3 md:py-0 rounded-md duration-500 cursor-pointer block font-poppins text-white hover:bg-[#fa2d86] md:hover:py-1 md:hover:px-4 md:hover:text-white md:hover:rounded-md hover:duration-500'>Login
                             </Link>
                         </li>
                         <li>
