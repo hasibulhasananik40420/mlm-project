@@ -5,7 +5,7 @@ import { FiBell } from 'react-icons/fi'
 const QualityServices = () => {
     return (
         <div className='bg-[#f5f5f5] mt-24 '>
-            <h1 className='lg:text-5xl text-3xl font-bold font-Poppins text-center pt-20 text-[#000000]'>We Provide Quality Services.</h1>
+            <h1 className='lg:text-5xl text-3xl font-bold font-Poppins text-center pt-20 text-[#000000]'>Service to Avail & Provide Services</h1>
             <p className='pt-6 text-center lg:text-xl text-[#707070]'>Efficiently aggregate end-to-end core competencies without maintainable. </p>
             <p className='lg:text-xl text-center pt-1 text-[#707070]'>Dynamically foster tactical solutions without enabled value.</p>
 
@@ -19,7 +19,7 @@ const QualityServices = () => {
                                 <TfiAnnouncement size={50} className='text-[#e80566]' />
                             </div>
                             <div>
-                                <h1 className='text-2xl font-bold font-Poppins text-[#000000]'>Marketing Services</h1>
+                                <h1 className='text-2xl font-bold font-Poppins text-[#000000]'>Founding Partner Investment.</h1>
                                 <p className='font-Poppins mt-3 text-[#707070]'>Progressively empower business "outside the box" thinking with resource-leveling partnerships.</p>
 
                                 <button className='flex gap-1 items-center text-[#7e8299] font-medium mt-4 hover:text-[#e80566] duration-300'><span>Read more</span> <span><BsArrowRightShort /></span></button>
@@ -32,7 +32,7 @@ const QualityServices = () => {
                                 <BsLightbulb size={50} className='text-[#e80566]' />
                             </div>
                             <div>
-                                <h1 className='text-2xl font-bold font-Poppins text-[#000000]'>Web App Development</h1>
+                                <h1 className='text-2xl font-bold font-Poppins text-[#000000]'>Share Package Investment</h1>
                                 <p className='font-Poppins mt-3 text-[#707070]'>Progressively empower business "outside the box" thinking with resource-leveling partnerships.</p>
 
                                 <button className='flex gap-1 items-center text-[#7e8299] font-medium mt-4 hover:text-[#e80566] duration-300'><span>Read more</span> <span><BsArrowRightShort /></span></button>
@@ -44,7 +44,7 @@ const QualityServices = () => {
                                 <TfiHeadphoneAlt size={50} className='text-[#e80566]' />
                             </div>
                             <div>
-                                <h1 className='text-2xl font-bold font-Poppins text-[#000000]'>24/7 Call Center Service</h1>
+                                <h1 className='text-2xl font-bold font-Poppins text-[#000000]'>Lifetime Profit Facilities</h1>
                                 <p className='font-Poppins mt-3 text-[#707070]'>Progressively empower business "outside the box" thinking with resource-leveling partnerships.</p>
 
                                 <button className='flex gap-1 items-center text-[#7e8299] font-medium mt-4 hover:text-[#e80566] duration-300'><span>Read more</span> <span><BsArrowRightShort /></span></button>
@@ -56,7 +56,7 @@ const QualityServices = () => {
                                 <FiBell size={50} className='text-[#e80566]' />
                             </div>
                             <div>
-                                <h1 className='text-2xl font-bold font-Poppins text-[#000000]'>Social Media Marketing</h1>
+                                <h1 className='text-2xl font-bold font-Poppins text-[#000000]'>Holder Investment.</h1>
                                 <p className='font-Poppins mt-3 text-[#707070]'>Progressively empower business "outside the box" thinking with resource-leveling partnerships.</p>
 
                                 <button className='flex gap-1 items-center text-[#7e8299] font-medium mt-4 hover:text-[#e80566] duration-300'><span>Read more</span> <span><BsArrowRightShort /></span></button>
