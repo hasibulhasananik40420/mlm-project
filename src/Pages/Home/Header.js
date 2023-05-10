@@ -15,7 +15,7 @@ const Header = () => {
                     <div className=' p-10'>
                         {/* text part */}
                         <div className=" lg:p-8  lg:w-2/4 w-full mt-24">
-                            <h3 className='lg:text-5xl text-2xl font-Poppins mb-4  font-bold '>Build,First Launch </h3>
+                            <h3 className='lg:text-5xl text-2xl font-Poppins mb-4  font-bold '>C.B.C.L.First Launch </h3>
                             <h3 className='lg:text-5xl text-2xl font-Poppins mb-4  font-bold '>Quickly </h3>
                             <h3 className='text-xl pt-3 font-Poppins mb-8'>Holisticly procrastinate mission-critical convergence with reliable customer service.
                             </h3>
